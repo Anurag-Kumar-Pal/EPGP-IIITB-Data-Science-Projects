@@ -36,19 +36,20 @@ The data is about whether a client has payment difficulties.
 
 ## Steps Involved
 
-- Mounting the data on Google Drive and loading the data inside the Python notebook
-- Checking the count of images available in "Train" and "Test" dataset
-- Forming the Train and Test datasets
-- Visualizing the data
-- Creating, Compiling, Training and Visualizing CNN Model 1
-- Applying data augmentation on the Training dataset
-- Creating, Compiling, Training and Visualizing CNN Model 2 (With Data Augmentation & Dropout Layer)
-- Checking Class Distribution of our Training Dataset
-- To address this class imbalance, we used the Augmentor library to generate new samples artificially
-- Visualizing the distribution of augmented data after adding new images to the Training dataset
-- Creating, Compiling, Training and Visualizing CNN Model 3 (With New Data from Augmentor)
-- Creating, Compiling, Training and Visualizing CNN Model 4 (With L2 Regularization and Additional Dropout Layers)
-- Checking the Test accuracy using Model 4 (With L2 Regularization and Additional Dropout Layers) using Test dataset
+- Reading the datasets
+- Deleting the columns that are not required
+- Null Value Treatement
+- Data Sanity Checks
+- Removing Outliers
+- Creating new Categorical and Numerical columns for better analysis
+- Peforming Univariate Analysis On The Data
+- Performing Univariate Analysis for Continuous Variables
+- Performing Bi-Variate Analysis
+- Performing Multi-Variate Analysis
+- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
+- Performing Bi-Variate Analysis on the Merged Dataframe
+- Performing Multi-Variate analysis on the merged dataframe
+- Deriving Inferences after completion of the EDA
 - Writing Conclusions
 
 
@@ -56,4 +57,12 @@ The data is about whether a client has payment difficulties.
 
 ## Conclusions
 
-> After 30 Epochs, using CNN Model 4 (With L2 Regularization and Additional Dropout Layers), the training accuracy is 87% and validation accuracy is 82%. As the difference between them is withing a range of 5%, the Model 4 seems to be optimum.
+##### Positive Correlation (Directly Related):
+> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
+> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
+> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
+
+
+##### Negative Correlation (Inversely Related):
+> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
+> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
