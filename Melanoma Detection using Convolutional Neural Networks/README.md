@@ -1,4 +1,3 @@
-![image](https://github.com/heyitsanuragpal/MelanomaDetectionCaseStudy/assets/151669975/0b49713d-1b53-4600-b746-512089af0c95)
 # Detection of Melanoma Skin Cancer using CNN
 > Developing a custom convolutional neural network in TensorFlow for a multiclass classification model for detecting Melanoma skin cancer.
 
