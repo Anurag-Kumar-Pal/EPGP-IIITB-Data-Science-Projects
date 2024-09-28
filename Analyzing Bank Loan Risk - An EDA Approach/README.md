@@ -1,5 +1,5 @@
-# Detection of Melanoma Skin Cancer using CNN
-> Developing a custom convolutional neural network in TensorFlow for a multiclass classification model for detecting Melanoma skin cancer.
+# Identifying Key Factors in Bank Loans using Risk Analysis
+> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -10,8 +10,13 @@
 
 ## General Information
 
+> **Business Understanding**:
+The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+
 > **Problem Statement**:
-To build a CNN based model which can accurately detect melanoma. Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
 
 > **Dataset**:
 The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
