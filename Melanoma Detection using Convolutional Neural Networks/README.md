@@ -30,7 +30,9 @@ The data set contains the following nine diseases:
 
 Following is the count of images present for each class of disease in decreasing order:
 
-![image](https://github.com/heyitsanuragpal/Melanoma-Detection/assets/151669975/8170fb29-5c7a-4873-931d-d2368440e1a9)
+![image](https://github.com/user-attachments/assets/0d48ce12-c1f1-4688-a937-0aa04a8ddaa9)
+
+
 
 
 
