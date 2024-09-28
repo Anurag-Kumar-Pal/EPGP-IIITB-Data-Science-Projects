@@ -3,8 +3,8 @@
 
 ## Table of Contents
 * [General Information](#general-information)
-* [Technologies Used](#libraries-used)
-* [Libraries Used](#steps-involved)
+* [Libraries Used](#libraries-used)
+* [Steps Involved](#steps-involved)
 * [Conclusions](#conclusions)
 
 
