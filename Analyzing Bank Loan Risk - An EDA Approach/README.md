@@ -15,46 +15,24 @@
 > - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
 > - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
 
+
 ##### **Problem Statement**: 
 > Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
 
 ##### **Dataset**:
-> The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
-
-The data set contains the following nine diseases:
-
-- Actinic keratosis
-- Basal cell carcinoma
-- Dermatofibroma
-- Melanoma
-- Nevus
-- Pigmented benign keratosis
-- Seborrheic keratosis
-- Squamous cell carcinoma
-- Vascular lesion
-
-Following is the count of images present for each class of disease in decreasing order:
-
-![image](https://github.com/user-attachments/assets/0d48ce12-c1f1-4688-a937-0aa04a8ddaa9)
-
-
-
+> Dataset has 3 files as explained below: 
+> 1. 'application_data.csv' contains all the information of the client at the time of application.
+The data is about whether a client has payment difficulties.
+> 2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data on whether the previous application had been Approved, Cancelled, Refused or Unused offer.
+> 3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
 
 
 ## Libraries Used
 
-- Python
 - Pandas
 - NumpPy
-- Tensorflow
-- Keras
 - Matplotlib
 - Seaborn
-- Scikit
-- Glob
-- Pathlib
-- OS
-- Augmentor
 
 ## Steps Involved
 
