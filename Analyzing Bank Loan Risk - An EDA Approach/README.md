@@ -5,6 +5,7 @@
 * [General Information](#general-information)
 * [Libraries Used](#libraries-used)
 * [Steps Involved](#steps-involved)
+* [Results](#results)
 * [Conclusions](#conclusions)
 
 
@@ -52,7 +53,11 @@ The data is about whether a client has payment difficulties.
 - Deriving Inferences after completion of the EDA
 - Writing Conclusions
 
+## Results
 
+> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
+
+![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
 
 
 ## Conclusions
