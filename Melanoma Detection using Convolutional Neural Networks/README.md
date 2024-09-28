@@ -3,8 +3,8 @@
 
 ## Table of Contents
 * [General Information](#general-information)
-* [Technologies Used](#technologies-used)
-* [Steps Involved](#steps-involved)
+* [Technologies Used](#libraries-used)
+* [Libraries Used](#steps-involved)
 * [Conclusions](#conclusions)
 
 
@@ -36,7 +36,7 @@ Following is the count of images present for each class of disease in decreasing
 
 
 
-## Technologies Used
+## Libraries Used
 
 - Python
 - Pandas
