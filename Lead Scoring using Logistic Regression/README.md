@@ -67,7 +67,7 @@
 ![image](https://github.com/user-attachments/assets/9137b263-02a8-41e9-84a6-2a8f30a69023)
 
 
-##### 3.. Plotting the Feature Important Graph:
+##### 3. Plotting the Feature Importance Graph:
 
 ![image](https://github.com/user-attachments/assets/6749262e-6a76-4756-9969-d163946050ae)
 
@@ -93,12 +93,18 @@
 
 ## Conclusions
 
-##### Positive Correlation (Directly Related):
-> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
-> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
-> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
+##### Features having Positive Impact on Conversion pPobability in Decreasing Order of Impact:
+> - Lead Origin_Lead Add Form
+> - Last Activity_Had a Phone Conversation
+> - What is your current occupation_Working Professional
+> - Lead Source_Welingak Website
+> - Last Notable Activity_Unreachable
+> - Lead Source_Olark Chat
+> - Last Activity_SMS Sent
+> - Total Time Spent on Website
 
 
-##### Negative Correlation (Inversely Related):
-> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
-> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
+##### Features having Negative Impact on Conversion Probability in Decreasing Order of Impact:
+> - Lead Profile_Student of SomeSchool
+> - Do Not Email
+> - Last Activity_Olark Chat Conversation
