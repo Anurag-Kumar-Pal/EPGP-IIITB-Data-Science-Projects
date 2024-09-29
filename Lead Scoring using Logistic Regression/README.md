@@ -1,5 +1,5 @@
-# Identifying Key Factors in Bank Loans using Risk Analysis
-> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
+# Predictive Lead Scoring using Logistic Regression
+> Develop a logistic regression model to assign a lead score ranging from 0 to 100 for each lead, enabling the company to effectively target high-potential leads.
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -18,7 +18,8 @@
 
 
 ##### **Problem Statement**: 
-> Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
+> X Education aims to improve its lead conversion strategy by developing a predictive model that assigns lead scores, indicating the likelihood of converting prospects into paying customers. With a target conversion rate of 80% set by the CEO, the challenge is to analyze existing data and identify key factors to prioritize leads effectively, enhancing overall sales performance.
+
 
 ##### **Dataset**:
 > Dataset has 3 files as explained below: 
