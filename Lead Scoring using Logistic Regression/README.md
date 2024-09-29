@@ -37,21 +37,22 @@
 
 ## Steps Involved
 
-- Reading the datasets
-- Deleting the columns that are not required
-- Null Value Treatement
-- Data Sanity Checks
-- Removing Outliers
-- Creating new Categorical and Numerical columns for better analysis
-- Peforming Univariate Analysis On The Data
-- Performing Univariate Analysis for Continuous Variables
-- Performing Bi-Variate Analysis
-- Performing Multi-Variate Analysis
-- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
-- Performing Bi-Variate Analysis on the Merged Dataframe
-- Performing Multi-Variate analysis on the merged dataframe
-- Deriving Inferences after completion of the EDA
-- Writing Conclusions
+- Importing Libraries
+- Reading the Dataset and Initial Exploration
+- Dataset Cleansing and Dataset Transformation before EDA
+- Handling Missing Values in the Dataset
+- Data Visualization and Conducting EDA
+- Preparing Data for Model Building
+- Dividing the Data into Training and Testing Sets
+- Feature Scaling
+- Model Building
+- Model Evaluation
+- Constructing the ROC Curve and Evaluating Accuracy
+- Calculating Precision and Recall
+- Making Predictions on the Test Dataset
+- Assigning Lead Score
+- Finding out Feature Importance
+- Conclusions
 
 ## Results
 
