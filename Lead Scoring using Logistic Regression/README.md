@@ -56,9 +56,39 @@
 
 ## Results
 
-> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
+##### 1. Plotting ROC Curve:
+- Area under curve (auc) is approximately 0.88; close to ideal auc of 1
 
-![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
+![image](https://github.com/user-attachments/assets/9103491f-7b99-4616-83b6-eb4900706901)
+
+##### 2. Plotting Accuracy, Sensitivity and Specificity:
+- 0.4 is the optimum point to take as a cutoff probability.
+  
+![image](https://github.com/user-attachments/assets/9137b263-02a8-41e9-84a6-2a8f30a69023)
+
+
+##### 3.. Plotting the Feature Important Graph:
+
+![image](https://github.com/user-attachments/assets/6749262e-6a76-4756-9969-d163946050ae)
+
+##### 4. Evaluation Metrics for the Train Dataset:
+- Accuracy: 0.81
+- Sensitivity: 0.70
+- Specificity: 0.88
+- Precision: 0.78
+- Recall: 0.70
+- Positive predictive value: 0.78
+- Negative predictive value: 0.82
+
+
+##### 5. Evaluation Metrics for the Test Dataset:
+- Accuracy: 0.81
+- Sensitivity: 0.75
+- Specificity: 0.84
+- Precision: 0.73
+- Recall: 0.75
+- Positive predictive value: 0.73
+- Negative predictive value: 0.86
 
 
 ## Conclusions
