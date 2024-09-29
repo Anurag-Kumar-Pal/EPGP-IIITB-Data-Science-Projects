@@ -12,9 +12,10 @@
 ## General Information
 
 ##### **Business Understanding**:
-> The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
-> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+> An education company named X Education sells online courses to industry professionals. On any given day, many professionals who are interested in the courses land on their website and browse for courses. The company markets its courses on several websites and search engines like Google. Once these people land on the website, they might browse the courses or fill up a form for the course or watch some videos. When these people fill up a form providing their email address or phone number, they are classified to be a lead. Moreover, the company also gets leads through past referrals. Once these leads are acquired, employees from the sales team start making calls, writing emails, etc. Through this process, some of the leads get converted while most do not. The typical lead conversion rate at X education is around 30%. Now, although X Education gets a lot of leads, its lead conversion rate is very poor. For example, if, say, they acquire 100 leads in a day, only about 30 of them are converted. To make this process more efficient, the company wishes to identify the most potential leads, also known as ‘Hot Leads’. If they successfully identify this set of leads, the lead conversion rate should go up as the sales team will now be focusing more on communicating with the potential leads rather than making calls to everyone. A typical lead conversion process can be represented using the following funnel:
+
+![image](https://github.com/user-attachments/assets/5473d5b0-ef37-4025-83d8-ee0d67fbf530)
+
 
 
 ##### **Problem Statement**: 
@@ -23,11 +24,9 @@
 
 ##### **Dataset**:
 > Dataset has 3 files as explained below: 
-> 1. 'application_data.csv' contains all the information of the client at the time of application.
-The data is about whether a client has payment difficulties.
-> 2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data on whether the previous application had been Approved, Cancelled, Refused or Unused offer.
-> 3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
-
+> 1. "Leads.csv" contains 37 columns and 9240 rows of lead scoring data.
+> 2. "Leads Data Dictionary" contains Leads data variables and its descriptive part.
+> 3. "Assignment Subjective Questions" contains four subjective question of Lead Scoring analysis and looking for its outcome.
 
 ## Libraries Used
 
