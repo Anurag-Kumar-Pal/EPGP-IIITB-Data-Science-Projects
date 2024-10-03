@@ -1,5 +1,6 @@
-# Identifying Key Factors in Bank Loans using Risk Analysis
-> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
+# Forecasting Bike Sharing Demand with Linear Regression Analysis
+> Build a multiple linear regression model to forecast the demand for shared bikes.
+
 
 ## Table of Contents
 * [General Information](#general-information)
