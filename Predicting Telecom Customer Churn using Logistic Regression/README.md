@@ -1,5 +1,6 @@
 # Predicting Telecom Customer Churn using Logistic Regression
-> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
+> Analyze customer-level data from a leading telecom firm to build predictive models that identify high-risk churn customers.
+
 
 ## Table of Contents
 * [General Information](#general-information)
