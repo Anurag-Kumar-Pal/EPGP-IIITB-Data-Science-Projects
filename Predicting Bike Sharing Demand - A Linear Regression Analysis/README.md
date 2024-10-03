@@ -61,9 +61,35 @@
 
 ## Results
 
-> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
+##### 1. Here’s a heatmap that illustrates the linear correlations among various factors of the bike sharing dataset:
+![image](https://github.com/user-attachments/assets/c594bcd5-3e44-457d-af0d-ad5aea935807)
 
-![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
+##### 2. Proofs for the assumptions of Linear Regression:
+  **Assumption 1:** One crucial assumption posits the existence of a linear relationship between the independent and dependent variables.
+  
+  ![image](https://github.com/user-attachments/assets/659f1138-883d-422a-b7f4-baa83ab35791)
+    
+  **Assumption 2:** No auto-correlation i.e, Assumption of Error Terms Being Independent
+  
+  ![image](https://github.com/user-attachments/assets/307cc96c-58ff-4d45-993f-7a47d3d9a2d7)
+    
+  **Assumption 3:** No Multicollinearity
+
+  ![image](https://github.com/user-attachments/assets/1f446de5-4d5e-4645-a120-2a73eb3eae2d)
+    
+
+  **Assumption 4:** Assumption of Homoscedasticity
+  
+  ![image](https://github.com/user-attachments/assets/8467c4f2-27dd-40bf-b644-7fa4a2602a66)
+
+  **Assumption 5:** Assumption of Normally Distributed Error Terms
+  
+  ![image](https://github.com/user-attachments/assets/f08efb94-f245-472d-b609-2af2cc75727f)
+
+
+
+
+
 
 
 ## Conclusions
