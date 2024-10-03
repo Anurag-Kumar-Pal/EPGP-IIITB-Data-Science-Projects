@@ -94,12 +94,35 @@
 
 ## Conclusions
 
-##### Positive Correlation (Directly Related):
-> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
-> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
-> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
+##### Graph actual values of the dataset versus predicted values by the model:
+
+![image](https://github.com/user-attachments/assets/119c4bd3-75e3-4cae-9855-1283cb3b193a)
 
 
-##### Negative Correlation (Inversely Related):
-> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
-> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
+##### Summary of Training and Test Dataset:
+
+###### Training Dataset:
+> - R-squared (R^2): 0.835
+> - Adj. R-squared (Adj. R^2): 0.832
+
+###### Testing Dataset:
+> - R-squared (R^2): 0.805
+> - Adj. R-squared (Adj. R^2): 0.795
+
+##### Demand of the Bikes depend on the following factors:
+
+> - year
+> - holiday
+> - temp
+> - windspeed
+> - July
+> - Sep
+> - Light_Showers
+> - Misty
+> - Spring
+> - Summer
+> - Winter
+
+##### Equation of our best-fitted line is:
+
+> - count_of_bike = 0.1994 + (year x 0.2336) - (holiday x 0.0975) + (temp x 0.4910) - (windspeed x 0.1479) - (July x 0.0521) + (Sep x 0.0768) - (Light_Showers x 0.2842) - (Misty x 0.0802) - (Spring x 0.0672) + (Summer x 0.0465) + (Winter x 0.0817)
