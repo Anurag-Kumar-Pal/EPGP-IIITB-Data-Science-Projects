@@ -43,20 +43,20 @@
 ## Steps Involved
 
 - Importing the Required Libraries
-- Reading the datasets
-- Deleting the columns that are not required
-- Null Value Treatement
-- Data Sanity Checks
-- Removing Outliers
-- Creating new Categorical and Numerical columns for better analysis
-- Peforming Univariate Analysis On The Data
-- Performing Univariate Analysis for Continuous Variables
-- Performing Bi-Variate Analysis
-- Performing Multi-Variate Analysis
-- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
-- Performing Bi-Variate Analysis on the Merged Dataframe
-- Performing Multi-Variate analysis on the merged dataframe
-- Deriving Inferences after completion of the EDA
+- Reading the Dataset and Initial Exploration
+- Dataset Cleansing and Dataset Transformation before EDA
+- Removing Unwanted Columns
+- Data Visualization and Conducting EDA
+- Data Preparation for Multiple Linear Regression Analysis
+- Dividing the Data into Training and Testing Sets
+- Normalising the Numerical Variables in the Dataset
+- Building the Multiple Linear Regression Model via an Iterative Process
+- Model Building
+- Model Selection
+- Prooving of the Assumptions of Linear Regression
+- Making Predictions on the Test Data Using the Selected Model
+- Model Evaluation
+- Mentioning the Predictor Variables and the Equation
 - Writing Conclusions
 
 ## Results
