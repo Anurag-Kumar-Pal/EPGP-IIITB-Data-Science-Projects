@@ -37,9 +37,12 @@
 - NumpPy
 - Matplotlib
 - Seaborn
+- Sklearn
+- Statsmodels
 
 ## Steps Involved
 
+- Importing the Required Libraries
 - Reading the datasets
 - Deleting the columns that are not required
 - Null Value Treatement
