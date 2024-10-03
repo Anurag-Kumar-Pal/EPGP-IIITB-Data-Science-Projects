@@ -1,4 +1,4 @@
-# Identifying Key Factors in Bank Loans using Risk Analysis
+# Predicting Telecom Customer Churn using Logistic Regression
 > Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
 
 ## Table of Contents
