@@ -13,21 +13,20 @@
 ## General Information
 
 ##### **Business Understanding**:
-> The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
-> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+> In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition. For many incumbent operators, *retaining high profitable customers is the number one business goal.* To reduce customer churn, **telecom companies need to predict which customers are at high risk of churn.** There are two main models of payment in the telecom industry - postpaid (customers pay a monthly/annual bill after using the services) and prepaid (customers pay/recharge with a certain amount in advance and then use the services).
+> - In the postpaid model, when customers want to switch to another operator, they usually inform the existing operator to terminate the services, and you directly know that this is an instance of churn.
+> - However, in the prepaid model, customers who want to switch to another network can simply stop using the services without any notice, and it is hard to know whether someone has actually churned or is simply not using the services temporarily (e.g. someone may be on a trip abroad for a month or two and then intend to resume using the services again).
+
+> Thus, churn prediction is usually more critical (and non-trivial) for prepaid customers, and the term ‘churn’ should be defined carefully.  Also, prepaid is the most common model in India and Southeast Asia, while postpaid is more common in Europe in North America.
 
 
 ##### **Problem Statement**: 
-> Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
+> The goal of this project is to predict customer churn in the ninth month by utilizing data collected from the first three months. To achieve accurate predictions, it is essential to gain insights into typical customer behavior associated with churn.
 
 ##### **Dataset**:
 > Dataset has 3 files as explained below: 
-> 1. 'application_data.csv' contains all the information of the client at the time of application.
-The data is about whether a client has payment difficulties.
-> 2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data on whether the previous application had been Approved, Cancelled, Refused or Unused offer.
-> 3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
-
+> 1. 'telecom_churn_data.csv' The dataset contains customer-level information for a span of four consecutive months - June, July, August and September. The months are encoded as 6, 7, 8 and 9, respectively. 
+> 2. 'Data Dictionary - Telecom Churn.xlsx' contains the data dictionary contains meanings of abbreviations. Some frequent ones are loc (local), IC (incoming), OG (outgoing), T2T (telecom operator to telecom operator), T2O (telecom operator to another operator), RECH (recharge) etc. The attributes containing 6, 7, 8, 9 as suffixes imply that those correspond to the months 6, 7, 8, 9 respectively.
 
 ## Libraries Used
 
