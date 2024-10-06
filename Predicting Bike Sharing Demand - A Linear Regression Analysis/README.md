@@ -53,7 +53,7 @@
 - Building the Multiple Linear Regression Model via an Iterative Process
 - Model Building
 - Model Selection
-- Prooving of the Assumptions of Linear Regression
+- Proving of the Assumptions of Linear Regression
 - Making Predictions on the Test Data Using the Selected Model
 - Model Evaluation
 - Mentioning the Predictor Variables and the Equation
