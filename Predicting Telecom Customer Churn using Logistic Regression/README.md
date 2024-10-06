@@ -8,6 +8,7 @@
 * [Steps Involved](#steps-involved)
 * [Results](#results)
 * [Conclusions](#conclusions)
+* [Business Recommendations](#business-recommendations)
 
 
 ## General Information
@@ -61,12 +62,10 @@
 
 ## Results
 
-> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
+> Here’s a list of factors that are the top predictors of customer churn:
 
-![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
+![image](https://github.com/user-attachments/assets/af982e09-7f51-40d8-8f39-1f1863d6500b)
 
-
-## Conclusions
 
 ##### Modelling without PCA:
 > Evaluation Metrics for the Test Dataset || Building a LogisticRegression Model (Without PCA):
@@ -96,3 +95,24 @@
 > Modelling with PCA Model Preference
 > As we're prioritising Sensitivity over Accuracy, we will choose Logistic Regression Model (With PCA).
 > *Reason: Sensitivity Metric: LogisticRegression Model (0.84) > Random Forest Model (0.74) > Decision Tree Model (0.70)*
+
+
+## Conclusions
+
+##### Conclusion 1 : 
+> LogisticRegression Model (With PCA) has a better Training Accuracy (0.82) and Sensitivity (0.84) compared to the LogisticRegression Model (Without PCA) with a Training Accuracy (0.81) and Sensitivity (0.82)
+
+##### Conclusion 2 : 
+> As per the problem statement, the main objective of identifying important predictor attributes which help the business understand indicators of churn. Hence, we will go with **"Modelling without PCA"** as it expliains the important predictor variables as well as the significance of each variable.
+
+
+## Business Recommendations
+
+> 1. Focus on the customers who have a high average Recharge amount in "Good Phase" as there's a higher probability for such customers to Churn.
+> 2. Customers having increasing incoming local minutes of usage for operators T to other operator mobiles for the month of July are more likely to churn.
+> 3. Customers who are frequently doing recharges of higher amounts in the month of July are more likely to churn.
+> 4. Customers who have recharges of lesser amount in the the month of August are more likely to churn.
+> 5. Cutomers, whose monthly 2G/3G recharges in the month of August is high, are more likely to be churn.
+> 6. Customers having decreasing total outgoing minutes of voice calls in the month of August are more likely to churn.
+> 7. Customers having decreasing local outgoing voice calls in the month of August are more likely to churn.
+> 8. Customers for which the recharge amount has been decreasing in the "Action Phase" are more likely to churn.
