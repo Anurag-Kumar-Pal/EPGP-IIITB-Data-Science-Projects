@@ -34,24 +34,30 @@
 - NumpPy
 - Matplotlib
 - Seaborn
+- Sklearn
+- Statsmodels
+- Re
+- Mlxtend
+- SMOTE
 
 ## Steps Involved
 
-- Reading the datasets
-- Deleting the columns that are not required
+- Importing the Required Libraries
+- Reading the Dataset and Initial Exploration
+- Dataset Cleansing and Dataset Transformation before EDA
+- Data Preparation
 - Null Value Treatement
-- Data Sanity Checks
-- Removing Outliers
-- Creating new Categorical and Numerical columns for better analysis
-- Peforming Univariate Analysis On The Data
-- Performing Univariate Analysis for Continuous Variables
-- Performing Bi-Variate Analysis
-- Performing Multi-Variate Analysis
-- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
-- Performing Bi-Variate Analysis on the Merged Dataframe
-- Performing Multi-Variate analysis on the merged dataframe
-- Deriving Inferences after completion of the EDA
+- Data Visualization and Conducting EDA
+- Preparing Data for Model Building
+- Model Building (With and Without PCA)
+- Model Evaluation
+- Constructing the ROC Curve and Evaluating Accuracy
+- Calculating Precision and Recall
+- Making Predictions on the Test Dataset
+- Finding out Feature Importance
+- Model Comparisons
 - Writing Conclusions
+- Providing Recommendations
 
 ## Results
 
@@ -62,12 +68,31 @@
 
 ## Conclusions
 
-##### Positive Correlation (Directly Related):
-> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
-> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
-> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
+##### Modelling without PCA:
+> Evaluation Metrics for the Test Dataset || Building a LogisticRegression Model (Without PCA):
+> - Accuracy: 0.81
+> - Sensitivity: 0.82
+> - Specificity: 0.80
+> - Precision: 0.29
+> - Recall: 0.82
 
 
-##### Negative Correlation (Inversely Related):
-> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
-> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
+##### Modelling with PCA:
+> Accuracy Metrics for Test Set || LogisticRegression Model (With PCA):
+> - Accuracy: 0.82
+> - Sensitivity: 0.84
+> - Specificity: 0.82
+
+> Accuracy Metrics for Test Set || Random Forest Model (With PCA):
+> - Accuracy: 0.85
+> - Sensitivity: 0.74
+> - Specificity: 0.87
+
+> Accuracy Metrics for Test Set || Decision Tree Model (With PCA):
+> - Accuracy: 0.83
+> - Sensitivity: 0.70
+> - Specificity: 0.84
+
+> Modelling with PCA Model Preference
+> As we're prioritising Sensitivity over Accuracy, we will choose Logistic Regression Model (With PCA).
+> *Reason: Sensitivity Metric: LogisticRegression Model (0.84) > Random Forest Model (0.74) > Decision Tree Model (0.70)*
