@@ -5,8 +5,7 @@
 * [General Information](#general-information)
 * [Technology Used](#technology-used)
 * [Steps Involved](#steps-involved)
-* [Results](#results)
-* [Conclusions](#conclusions)
+* [Business Recommendations](#business-recommendations)
 
 
 ## General Information
@@ -28,37 +27,36 @@
 
 ## Steps Involved
 
-- Reading the datasets
-- Deleting the columns that are not required
-- Null Value Treatement
-- Data Sanity Checks
-- Removing Outliers
-- Creating new Categorical and Numerical columns for better analysis
-- Peforming Univariate Analysis On The Data
-- Performing Univariate Analysis for Continuous Variables
-- Performing Bi-Variate Analysis
-- Performing Multi-Variate Analysis
-- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
-- Performing Bi-Variate Analysis on the Merged Dataframe
-- Performing Multi-Variate analysis on the merged dataframe
-- Deriving Inferences after completion of the EDA
-- Writing Conclusions
-
-## Results
-
-> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
-
-![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
+- Reading the Tables
+- Initial Exploration
+- Querying the Data for the Questions Asked
+- Deriving Inferences after Querying the Data
+- Providing Recommendations
 
 
-## Conclusions
+## Business Recommendations
 
-##### Positive Correlation (Directly Related):
-> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
-> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
-> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
-
-
-##### Negative Correlation (Inversely Related):
-> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
-> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
+> 1. To date, a total of 4285 movies have been produced in the "Drama" category,
+with 1078 of them originating in the year 2019, suggesting that RSVP Movies
+should consider prioritizing the 'Drama' genre for their upcoming project.
+> 2. The data shows a declining trend in the quantity of movies produced over the
+years, with the peak production occurring in the month of March.
+> 3. Based on the dataset, it can be inferred that Dream Warrior Pictures, which
+holds the top rank, and National Theatre Live, ranked second, are potential
+candidates to consider as the production company for their next project.
+> 4. Marvel Studios, Twentieth Century Fox, and Warner Bros have secured the top
+three positions based on the number of votes received by their movies. Hence,
+they should be seriously considered as global partners for the upcoming
+project.
+> 5. Considering his consistently high average rating, James Mangold appears to be
+a strong candidate for the director's role in their next project.
+> 6. Considering the median rating, either Mammootyy rranked 1st or Mohanlal
+rranked 2nd would be suitable choices for the actor role in their next project.
+> 7. Taking into account the average rating, Vijay Sethupathi is a suitable candidate
+to be considered as an additional actor for their next project.
+> 8. Fahadh Faasil and Yogi Babu are next in line right after Vijay Sethupathi
+in terms of total votes.
+> 9. Considering the average rating, Taapsee Pannu emerges as a strong candidate
+for the actress role in their next project.
+> 10. Based on total votes, Shraddha Kapoor is a strong candidate for the actress role in
+their next project.
