@@ -1,5 +1,5 @@
-# Identifying Key Factors in Bank Loans using Risk Analysis
-> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
+# Providing Movie Recommendations using SQL
+> Use SQL to analyse the given movie data and give recommendations to RSVP Movies based on the insights.
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -12,13 +12,10 @@
 ## General Information
 
 ##### **Business Understanding**:
-> The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
-> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
-
+> RSVP Movies is an Indian film production company which has produced many super-hit movies. They have usually released movies for the Indian audience but for their next project, they are planning to release a movie for the global audience in 2022.The production company wants to plan their every move analytically based on data and have approached you for help with this new project.
 
 ##### **Problem Statement**: 
-> Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
+> Analyze movie data using SQL to identify insights on box office performance and provide actionable recommendations for RSVP Movies to improve film selection and marketing strategies.
 
 ##### **Dataset**:
 > Dataset has 3 files as explained below: 
