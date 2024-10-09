@@ -13,20 +13,16 @@
 ## General Information
 
 ##### **Business Understanding**:
-> The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
-> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+> Rossmann is a European drug distributor which operates over 3,000 drug stores across seven European countries. Since a lot of drugs come with a short shelf life, that is, they do not have a long expiry date, it becomes imperative for Rossmann to accurately forecast sales at their individual stores. Currently, the forecasting is taken care of by the store managers who are tasked with forecasting daily sales for the next six weeks. As expected, store sales are influenced by many factors, including promotional campaigns, competition, state holidays, seasonality, and locality. Since the company is just embarking on this project, the scope has been kept to nine key stores across Europe. The stores are key for the company keeping in mind the revenue and historical prestige associated with them. These stores are numbered - 1,3,8,9,13,25,29,31 and 46.
 
 
 ##### **Problem Statement**: 
-> Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
+> With thousands of individual managers predicting sales based on their unique circumstances and intuitions, the accuracy of the forecasts is quite varied. To overcome this problem, the company has hired you as a data scientist to work on the forecasting problem. As part of your job role, you are tasked with building a forecasting model to forecast the daily sales for the next six weeks. To help you with the same, you have been provided with historical sales data for 1,115 Rossmann stores.
 
 ##### **Dataset**:
-> Dataset has 3 files as explained below: 
-> 1. 'application_data.csv' contains all the information of the client at the time of application.
-The data is about whether a client has payment difficulties.
-> 2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data on whether the previous application had been Approved, Cancelled, Refused or Unused offer.
-> 3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
+> Dataset has 2 files as explained below: 
+> 1. 'store.csv' contains the metadata for every single store.
+> 2. 'train.csv' contains the sales data for individual stores at a daily level along with the details about the day.
 
 
 ## Libraries Used
