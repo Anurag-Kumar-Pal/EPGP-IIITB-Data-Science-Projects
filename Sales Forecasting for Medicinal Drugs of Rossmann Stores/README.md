@@ -36,27 +36,37 @@
 
 ## Steps Involved
 
-- Reading the datasets
-- Deleting the columns that are not required
-- Null Value Treatement
-- Data Sanity Checks
-- Removing Outliers
-- Creating new Categorical and Numerical columns for better analysis
-- Peforming Univariate Analysis On The Data
-- Performing Univariate Analysis for Continuous Variables
-- Performing Bi-Variate Analysis
-- Performing Multi-Variate Analysis
-- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
-- Performing Bi-Variate Analysis on the Merged Dataframe
-- Performing Multi-Variate analysis on the merged dataframe
-- Deriving Inferences after completion of the EDA
+- Importing the Required Libraries
+- Reading the Dataset and Initial Exploration
+- Dataset Cleansing and Dataset Transformation before EDA
+- Data Visualization and Conducting EDA
+- Feature Engineering
+- Time Series Analysis
+- Dividing the Data into Training and Testing Sets
+- Model Building
+- Model Evaluation
+- Model Selection
+- Predicting for the next 6 weeks (1st Aug 2015 to 11th September 2015)
 - Writing Conclusions
+- Providing Recommendations
 
 ## Results
 
-> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
+##### 1. Summary of all the forecasting models that have been built:
+   
+![image](https://github.com/user-attachments/assets/12407678-dd27-48bc-85cc-e1cfff478aa9)
 
-![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
+
+##### 2. Here’s a plot of the forecasts of VAR model:
+   
+![image](https://github.com/user-attachments/assets/eb59804f-6452-40d0-bab1-3d79322c1055)
+
+
+##### 3. Here’s a plot of the Train and "var_newweeks_forecast" for the next 6 weeks (1st Aug 2015 to 11th September 2015):
+   
+![image](https://github.com/user-attachments/assets/1491426a-dd3d-4381-a0da-c1280fd7b37c)
+
+
 
 
 ## Conclusions
