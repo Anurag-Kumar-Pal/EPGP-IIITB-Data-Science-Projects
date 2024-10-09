@@ -7,6 +7,7 @@
 * [Steps Involved](#steps-involved)
 * [Results](#results)
 * [Conclusions](#conclusions)
+* [Business Recommendations](#business-recommendations)
 
 
 ## General Information
