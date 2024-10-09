@@ -31,6 +31,8 @@
 - NumpPy
 - Matplotlib
 - Seaborn
+- Sklearn
+- Statsmodels
 
 ## Steps Involved
 
