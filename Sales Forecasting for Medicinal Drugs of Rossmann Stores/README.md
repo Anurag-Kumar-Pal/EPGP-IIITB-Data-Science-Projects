@@ -1,5 +1,5 @@
-# Identifying Key Factors in Bank Loans using Risk Analysis
-> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
+# Sales Forecasting for Medicinal Drugs of Rossmann Stores
+> Develop a reliable forecasting model using historical sales data from 1,115 Rossmann stores to predict daily sales for the next six weeks.
 
 ## Table of Contents
 * [General Information](#general-information)
