@@ -71,12 +71,15 @@
 
 ## Conclusions
 
-##### Positive Correlation (Directly Related):
-> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
-> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
-> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
+> - We built multiple models like AR, MA, ARIMA, SARIMA, VAR and VARMAX
+> - The best model is the VAR (Vector Auto-Regressive) model as it has the lowest values for RMSE and MAPE across all the models
+> - RMSE for VAR Model: 602.41
+> - MAPE for VAR Model: 6.18
+> - We forecasted the "Sales" for the next 6 weeks from 1st Aug 2015 to 11th September 2015 (42 Days or 6 Weeks) using VAR model
 
 
-##### Negative Correlation (Inversely Related):
-> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
-> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
+## Business Recommendations
+
+> - Increase the presence of store type "B" in the market as they demonstrate a higher percentage of sales compared to other store types
+> - Encourage the expansion of promotional activities across more stores
+> - Given seasonal trends, stores should capitalize on holidays by enhancing promotional efforts
