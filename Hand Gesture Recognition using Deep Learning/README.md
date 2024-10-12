@@ -23,14 +23,15 @@ Your goal is to create an innovative feature for the smart TV platform. This fea
 
 
 ##### **Problem Statement**: 
-> Suppose you work for a consumer finance company that specializes in providing various loan types to urban customers. Your task is to conduct exploratory data analysis (EDA) to identify patterns in the data, ensuring that applicants who are capable of repaying their loans are not unfairly rejected.
+> Your goal is to create an innovative feature for the smart TV platform. This feature aims to accurately identify and interpret five distinct gestures executed by users, facilitating television control without the need for a traditional remote.
 
 ##### **Dataset**:
-> Dataset has 3 files as explained below: 
-> 1. 'application_data.csv' contains all the information of the client at the time of application.
-The data is about whether a client has payment difficulties.
-> 2. 'previous_application.csv' contains information about the client’s previous loan data. It contains the data on whether the previous application had been Approved, Cancelled, Refused or Unused offer.
-> 3. 'columns_description.csv' is data dictionary which describes the meaning of the variables.
+> - The training data consists of a few hundred videos categorized into one of the five classes. Each video (typically 2-3 seconds long) is divided into a sequence of 30 frames(images).
+> - The videos have two types of dimensions - either 360x360 or 120x160 (depending on the webcam used to record the videos).
+> - Sample Images from “Thumbs Up” folder:
+> ![image](https://github.com/user-attachments/assets/f9643728-b8d6-4072-9882-f9ee07735e08)
+
+
 
 
 ## Libraries Used
@@ -38,7 +39,15 @@ The data is about whether a client has payment difficulties.
 - Pandas
 - NumpPy
 - Matplotlib
-- Seaborn
+- Tensorflow
+- Keras 
+- Glob
+- Os
+- Datetime
+- Cv2
+- Imageio
+- Random
+- Logging
 
 ## Steps Involved
 
