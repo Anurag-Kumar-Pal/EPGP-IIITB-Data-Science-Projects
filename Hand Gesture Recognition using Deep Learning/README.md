@@ -60,9 +60,11 @@ Your goal is to create an innovative feature for the smart TV platform. This fea
 
 ## Results
 
-> Here’s a heatmap that illustrates the linear correlations among various factors for applicants who defaulted on their loans:
+> Below is the executive summary of the experiments carried out to identify the optimal model for the given problem statement:
+![image](https://github.com/user-attachments/assets/9592bc69-64b2-451f-a501-fabd9591b3b1)
 
-![image](https://github.com/user-attachments/assets/e5086564-28ba-42e2-8c37-17128c7bf186)
+
+
 
 
 ## Conclusions
