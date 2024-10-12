@@ -60,21 +60,22 @@ Your goal is to create an innovative feature for the smart TV platform. This fea
 
 ## Results
 
-> Below is the executive summary of the experiments carried out to identify the optimal model for the given problem statement:
-![image](https://github.com/user-attachments/assets/9592bc69-64b2-451f-a501-fabd9591b3b1)
+##### 1. Below is the executive summary of the experiments carried out to identify the optimal model for the given problem statement:
 
+![image](https://github.com/user-attachments/assets/3e8f2ee9-43ea-4ac2-9258-144adf21d441)
 
+##### 2. Model #11: Graph of Model Accuracy and Model Loss
+
+![image](https://github.com/user-attachments/assets/6393fd93-fbf0-48c3-9ccc-7032161e34ea)
 
 
 
 ## Conclusions
 
-##### Positive Correlation (Directly Related):
-> - "AMT_GOODS_PRICE" is positively correlated to "LOAN_AMT_LAKHS"
-> - "AMT_ANNUITY" is positively correlated to "LOAN_AMT_LAKHS"
-> - "APPLICANT_AGE" shows positive correlation with "YEARS_OF_EMPLOYMENT", "DAYS_REGISTRATION" and "DAYS_ID_PUBLISH"
+##### Model Selection Results
 
-
-##### Negative Correlation (Inversely Related):
-> - "FLAG_EMP_PHONE" is negatively correlated to "YEARS_OF_EMPLOYMENT" and "APPLICANT_AGE"
-> - "HOURS_APPR_PROCESS_START" shows negative correlation with "REGION_RATING_CLIENT" and "REGION_RATING_CLIENT_W_CITY"
+> - Selected Model: Model 11 Transfer Learning With GRU and Training all Weights
+> - Reason: This model has been selected as it has the best training and validation accuracies.
+> - Training Accuracy: 99%
+> - Validation Accuracy: 99%
+> - File Name: model-00013-0.02487-0.99548-0.03481-0.99000.h5
