@@ -1,5 +1,5 @@
 # Hand Gesture Recognition using Deep Learning
-> Company wants to identify the key factors contributing to loan defaults to improve its risk assessment and portfolio management.
+> Develop an innovative feature for a smart TV platform that accurately identifies and interprets five distinct user gestures, allowing for intuitive television control without a traditional remote.
 
 ## Table of Contents
 * [General Information](#general-information)
