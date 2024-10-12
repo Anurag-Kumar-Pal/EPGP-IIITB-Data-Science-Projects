@@ -51,21 +51,12 @@ Your goal is to create an innovative feature for the smart TV platform. This fea
 
 ## Steps Involved
 
-- Reading the datasets
-- Deleting the columns that are not required
-- Null Value Treatement
-- Data Sanity Checks
-- Removing Outliers
-- Creating new Categorical and Numerical columns for better analysis
-- Peforming Univariate Analysis On The Data
-- Performing Univariate Analysis for Continuous Variables
-- Performing Bi-Variate Analysis
-- Performing Multi-Variate Analysis
-- Merging both the dataframes ("previous_application" and "application_data") and performing analysis again
-- Performing Bi-Variate Analysis on the Merged Dataframe
-- Performing Multi-Variate analysis on the merged dataframe
-- Deriving Inferences after completion of the EDA
-- Writing Conclusions
+- Importing the Required Libraries
+- Reading the Dataset and Initial Exploration
+- Defining the first "Generator" function
+- Model Building
+- Model Evaluation
+- Model Selection
 
 ## Results
 
