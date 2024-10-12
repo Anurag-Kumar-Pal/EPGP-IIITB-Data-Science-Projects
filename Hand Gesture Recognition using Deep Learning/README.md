@@ -12,9 +12,14 @@
 ## General Information
 
 ##### **Business Understanding**:
-> The loan providing companies find it hard to give loans to the people due to their insufficient or non-existent credit history. Because of that, some consumers use it to their advantage by becoming a defaulter. When the company receives a loan application, the company has to decide for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
-> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
-> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+> You are working as a data scientist at a home electronics company which manufactures state of the art smart televisions.
+Your goal is to create an innovative feature for the smart TV platform. This feature aims to accurately identify and interpret five distinct gestures executed by users, facilitating television control without the need for a traditional remote. The gestures are continuously monitored by the webcam mounted on the TV. Each gesture corresponds to a specific command.
+>  - **Thumbs up:**  Increase the volume
+>  - **Thumbs down:** Decrease the volume
+>  - **Left swipe:** 'Jump' backwards 10 seconds
+>  - **Right swipe:** 'Jump' forward 10 seconds
+>  - **Stop:** Pause the movie
+
 
 
 ##### **Problem Statement**: 
