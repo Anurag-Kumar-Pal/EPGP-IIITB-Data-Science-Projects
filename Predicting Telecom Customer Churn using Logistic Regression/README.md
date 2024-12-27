@@ -92,7 +92,7 @@
 > - Sensitivity: 0.70
 > - Specificity: 0.84
 
-> Modelling with PCA Model Preference
+> Modelling with PCA Model Preference:
 > As we're prioritising Sensitivity over Accuracy, we will choose Logistic Regression Model (With PCA).
 > *Reason: Sensitivity Metric: LogisticRegression Model (0.84) > Random Forest Model (0.74) > Decision Tree Model (0.70)*
 
